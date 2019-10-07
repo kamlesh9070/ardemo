@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Pg-07_Full_Page" size="3.000000 4.114659" />
+    <ImageTarget name="Pg-07_Abhaydan" size="1.000000 1.087617" />
+    <ImageTarget name="Pg-07_gnandan" size="1.000000 1.027523" />
+    <ImageTarget name="Pg-07_medicine" size="1.000000 1.380952" />
+    <ImageTarget name="Pg-21_Planning_Balance" size="1.000000 0.828300" />
+    <ImageTarget name="Page_21_Full_Page" size="1.000000 1.371553" />
+  </Tracking>
+</QCARConfig>
