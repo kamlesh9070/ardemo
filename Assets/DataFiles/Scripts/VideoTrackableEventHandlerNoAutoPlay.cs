@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class VideoTrackableEventHandler : DefaultTrackableEventHandler
+public class VideoTrackableEventHandlerNoAutoPlay : DefaultTrackableEventHandler
 {
     #region PROTECTED_METHODS
 
@@ -19,21 +19,21 @@ public class VideoTrackableEventHandler : DefaultTrackableEventHandler
         base.OnTrackingLost();
     }
     
- 	protected override void OnTrackingFound()
-    {
+ 	// protected override void OnTrackingFound()
+    // {
 
-        base.OnTrackingFound();
+    //     base.OnTrackingFound();
         
-        var objVideoCont=mTrackableBehaviour.GetComponentsInChildren<VideoController>();
+    //     var objVideoCont=mTrackableBehaviour.GetComponentsInChildren<VideoController>();
 
-        for(int i=0;i<objVideoCont.Length;i++)
-        {
-        mTrackableBehaviour.GetComponentsInChildren<VideoController>()[i].Play();
+    //     for(int i=0;i<objVideoCont.Length;i++)
+    //     {
+    //     mTrackableBehaviour.GetComponentsInChildren<VideoController>()[i].Play();
 
-        }
+    //     }
         
         
-    }
+    // }
 
     #endregion // PROTECTED_METHODS
 }
